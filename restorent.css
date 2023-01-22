@@ -1,0 +1,475 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    height: 700px;
+    width: 1350px;
+
+    background-image: url(top-view-indian-food-frame-with-copy-space.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.container {
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    position: fixed;
+
+}
+
+.logo {
+    height: 40px;
+
+    width: 300px;
+    margin: 5px;
+    display: flex;
+}
+
+.logoimg {
+    border-radius: 50%;
+    width: 70px;
+
+    height: 40px;
+    background-image: url(brooke-lark-HlNcigvUi4Q-unsplash.jpg);
+    background-size: contain;
+    margin-left: 20px;
+}
+
+h4 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    /* text-align: center; */
+    font-size: 18px;
+    color: hsl(0, 12%, 95%);
+    position: relative;
+    left: 15px;
+}
+
+.item {
+    height: 40px;
+
+    width: 800px;
+    margin: 5px;
+
+}
+
+.itemname>a {
+    margin: 10px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    pointer-events: visible;
+    position: static;
+}
+.login {
+    width: 300px;
+    margin: 5px;
+}
+.taste>h1 {
+    margin-top: 300px;
+    margin-left: 30px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.tasteabout {
+    /* margin-top: 20px; */
+    margin-left: 160px;
+    display: flex;
+    width: 400px;
+    height: 50px;
+}
+.manu {
+    width: 100px;
+    height: 30px;
+    border-radius: 20%;
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+    text-align: center;
+}
+.order {
+    width: 100px;
+    height: 30px;
+    border-radius: 20%;
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+    text-align: center;
+}
+
+.table {
+    width: 100px;
+    height: 30px;
+    border-radius: 20%;
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+    text-align: center;
+}
+
+a {
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+.floter{
+    width: 400px;
+    height: 100px;
+    /* border: 10px solid black; */
+    margin-top: 500px;
+    margin: auto;
+    margin-top: 400px;
+}
+.floter>h1{
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+}
+.image{
+    width: 1350px;
+    height: 400px;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.image1{
+    width: 296px;
+    height: 400px;
+    /* border: 2px solid black; */
+    margin: 20px;
+}
+.image1>img{
+    border-radius: 7%;
+}
+.about{
+    width: 300px;
+    height: 80px;
+    /* border: 2px solid black; */
+    margin: 20px;
+    text-align: center;
+}
+.about>h1{
+    text-align: center;
+}
+.amenties{
+    width: 1350px;
+    height: 50px;
+    margin-top: 150px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    
+}
+.aboutamenties{
+    width: 1350px;
+    height: 250px;
+   
+    display: flex;
+    justify-content:space-around ;
+}
+.imageaminties{
+    width: 150px;
+    height: 70px;
+    border-radius:250%;
+}
+.main{
+    width: 1350px;
+    height: 400px;
+    /* border: 3px solid black; */
+    display: flex;
+}
+.abouttus{
+    width: 675px;
+    height: 400px;
+    /* border: 3px solid black; */
+    text-align: center;
+}
+.abouttus>h1{
+    margin-top: 100px;
+    font-style: italic;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.abouttus>p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.abouttusimg{
+    width: 600px;
+    height: 400px;
+    /* border: 3px solid black; */
+
+}
+
+.abouttusimg>img{
+    border-radius: 10%;
+    margin-left: 10px;
+}
+.gallery{
+    width: 1350px;
+    height: 50px;
+    /* border: 2px solid black; */
+    text-align: center;
+    margin-top:30px;
+}
+.galleryimage{
+    width: 1350px;
+    height: 400px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+.im1{
+    width: 420px;
+    height: 320px;
+    /* border: 2px solid black; */
+    margin: 20px;
+}
+.im1>img{
+border-radius: 7%;
+}
+footer {
+    flex-wrap: wrap;
+    height: 199px;
+    /* border: 10px solid black; */
+    display: flex;
+    width: 1350px;
+    background-color: blue;
+    color: white;
+    padding: 30px;
+}
+address>h3{
+    padding:2px;
+}
+address{
+    margin-left: 4px;
+  padding: 11px;
+}
+
+address{
+    margin-left: 50px;
+  
+}
+@media only screen and (max-width: 900px) {
+    
+    .item {
+        height: 78px;
+        width: 779px;
+        margin: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: -23px;
+    }
+    .navbar {
+        height: 80vh;
+        width: 450px;
+        background-image: url(top-view-indian-food-frame-with-copy-space.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+    }
+    .container {
+        /* height: 20vh; */
+        width: 80vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-around;
+        margin-top: 20px;
+        position: fixed;
+        flex-wrap: wrap;
+    }
+    .itemname>a {
+        margin: 3px;
+        color: white;
+        padding: 4px;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        pointer-events: visible;
+        position: static;
+        /* border: 1px solid red; */
+        font-size: smaller;
+    }
+    .logoimg {
+        border-radius: 50%;
+        width: 41px;
+        height: 46px;
+        background-image: url(brooke-lark-HlNcigvUi4Q-unsplash.jpg);
+        background-size: contain;
+        /* margin-left: -35px; */
+        margin-left: 14px;
+    }
+    .item {
+        height: 53px;
+        width: 779px;
+        margin: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1px;
+    }
+    .login {
+        width: 300px;
+    }
+    .taste {
+        height: 20vh;
+        /* border: 2px solid black; */
+        position: relative;
+        top: 26vh;
+    }
+    .tasteabout {
+        margin-top: 66px;
+        margin-left: -6px;
+        display: flex;
+        width: 339px;
+        height: 50px;
+    }
+    .manu {
+        width: 47px;
+        height: 22px;
+        border-radius: 20%;
+        margin: 10px;
+        padding: 10px;
+        background-color: red;
+        text-align: center;
+    }
+    
+    .order {
+       
+        width: 57px;
+        height: 28px;
+        border-radius: 20%;
+        margin: 10px;
+        padding: 10px;
+        background-color: red;
+        text-align: center;
+    }
+    .floter {
+        
+        margin-top: 244px;
+        margin-bottom: -251px;
+    }
+    .amenties {
+        width: 250px;
+        /* height: 50px; */
+        margin-top: 150px;
+        text-align: center;
+        font-style: italic;
+        font-weight: 900;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 100px;
+    }
+    .aboutamenties {
+        width: 300px;
+        flex-wrap: wrap;
+        height: 418px;
+        display: flex;
+        margin-left: 19px;
+        justify-content: space-around;
+    }
+    .main {
+        flex-wrap: wrap;
+        width: 300px;
+        height: 340px;
+        /* border: 3px solid black; */
+        display: flex;
+    }
+    .abouttusimg>img {
+        width:300px;
+        margin-left: 29px;
+        height: 240px;
+    }
+    .gallery {
+        width: 351px;
+        position: relative;
+        height: 463px;
+        /* border: 2px solid black; */
+        text-align: center;
+        margin-top: 30px;
+        top: 400px;
+    }
+    footer {
+        flex-wrap: wrap;
+        height: 199px;
+        /* border: 10px solid black; */
+        display: flex;
+        background-color: blue;
+        color: white;
+        width: 350px;
+    }
+    address{
+        margin-left: 4px;
+      
+    }
+   
+         
+    .galleryimage {
+        width: 350px;
+        height: 1143px;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    * 
+    .floter>h1 {
+        width: 350px;
+        top: -212px;
+        position: relative;
+        text-align: center;
+        font-weight: 900;
+        font-style: italic;
+        /* border: 2px solid black; */
+    }
+    .image {
+        /* width: 1350px; */
+        /* height: 727px; */
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 350px;
+        height: 1770px;
+    }
+    .taste>h1 {
+        margin-top: 300px;
+        margin-left: 30px;
+        color: white;
+        text-transform: capitalize;
+        font-weight: 900;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        display: none;
+    }
+    .gallery {
+        /* width: 1350px; */
+        /* height: 50px; */
+        /* border: 2px solid black; */
+        text-align: center;
+        margin-top: 30px;
+    }
+    .galleryimage {
+        /* width: 1350px; */
+        /* height: 400px; */
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+  }
+    
+    
